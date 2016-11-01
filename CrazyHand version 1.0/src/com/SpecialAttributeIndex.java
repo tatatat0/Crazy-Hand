@@ -559,6 +559,7 @@ public class SpecialAttributeIndex {
  new SpecialMoveAttribute(0x3654,"Shield block hitbox size modifier","","Miscellaneous"),
 };
 		public SpecialMoveAttribute[] luigiSpecialMoveAttributes = {
+			new SpecialMoveAttribute(0x3A80,"Fireball Graphic Size","","Neutral-B"),
 			new SpecialMoveAttribute(0x3A94,"Initial Velocity","","Neutral-B"),
  new SpecialMoveAttribute(0x3A98,"Projectile lifetime (frames)","","Neutral-B"),
  new SpecialMoveAttribute(0x3A9C,"????","","Neutral-B"),
@@ -969,6 +970,7 @@ public class SpecialAttributeIndex {
  new SpecialMoveAttribute(0x3624,"Recoil from charged shot (air only). Negative values send you backward, positive send you forward.","","Neutral-B"),
  new SpecialMoveAttribute(0x3628,"Frames between change in charge level","","Neutral-B").setIsInt(),
  new SpecialMoveAttribute(0x362C,"Anything other than 0 makes you go to special fall","","Neutral-B").setIsInt(),
+ new SpecialMoveAttribute(0x3E8C,"Charge Shot Graphic Size","","Neutral-B"),
  new SpecialMoveAttribute(0x3EB0,"Charge shot duration","","Neutral-B"),
  new SpecialMoveAttribute(0x3EB4,"Angle projectile fires at?","","Neutral-B").setIsInt(),
  new SpecialMoveAttribute(0x3EB8,"Base velocity. Diminishes with more charge (Full charge still goes same speed)","","Neutral-B"),
